@@ -17,15 +17,13 @@ public class Customer {
 
     private String firstname;
     private String lastname;
-    private String customer_url;
 
     public Customer(){
 
     }
 
-    public Customer(String firstname, String lastname, String customer_url) {
+    public Customer(String firstname, String lastname) {
         this.firstname = firstname;
         this.lastname = lastname;
-        this.customer_url = customer_url;
     }
 }
