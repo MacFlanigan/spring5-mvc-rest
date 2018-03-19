@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping({"/api/v1/customers/", "/api/v1/customers"})
 public class CustomerController {
 
+    public static final String BASE_URL = "/api/v1/customers";
     private CustomerService customerService;
 
     public CustomerController(CustomerService customerService) {
