@@ -95,7 +95,7 @@ public class CustomerServiceTest {
         // when
         CustomerDTO savedDto = customerService.createNewCustomer(customerDTO);
         assertEquals(customerDTO.getFirstname(), savedDto.getFirstname());
-        assertEquals("/api/v1/customer/1", savedDto.getCustomerUrl());
+        assertEquals("/api/v1/customers/1", savedDto.getCustomerUrl());
     }
 
     @Test
